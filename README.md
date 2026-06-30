@@ -1,8 +1,8 @@
-# 🚴 CycleSync
+#  CycleSync
 
 A real-time group riding tracking application built with **Kotlin**, **Firebase**, and **Google Maps**.
 
-## 📱 Screenshots
+##  Screenshots
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/5d865e80-9b88-4cf0-b1ef-9bb2f1a73a8a" width="250"/>
