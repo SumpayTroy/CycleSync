@@ -1,0 +1,87 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ridemain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RideStatsActivity">
+
+    <!-- Background image goes first so it stays at the back -->
+    <ImageView
+        android:id="@+id/bgImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="Background"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg_gradient" />
+
+    <!-- Stats overlay -->
+    <LinearLayout
+        android:id="@+id/statsContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_margin="32dp"
+        android:background="@android:color/transparent">
+
+        <TextView
+            android:id="@+id/textDistance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:background="@drawable/cell_border"
+            android:text="Distance: --"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textElevation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:padding="12dp"
+            android:background="@drawable/cell_border"
+            android:text="Elevation Gain: --"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textMovingTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:padding="12dp"
+            android:background="@drawable/cell_border"
+            android:text="Moving Time: --"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textAvgSpeed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:padding="12dp"
+            android:background="@drawable/cell_border"
+            android:text="Avg Speed: --"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textAvgHeartRate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:padding="12dp"
+            android:background="@drawable/cell_border"
+            android:text="Avg Heart Rate: --"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textMaxElevation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:padding="12dp"
+            android:background="@drawable/cell_border"
+            android:text="Max Elevation: --"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+</FrameLayout>

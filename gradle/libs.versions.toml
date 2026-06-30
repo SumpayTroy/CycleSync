@@ -1,0 +1,103 @@
+[versions]
+agp = "8.9.1"
+kotlin = "2.0.0"
+coreKtx = "1.16.0"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+lifecycleRuntimeKtx = "2.8.7"
+activityCompose = "1.10.1"
+composeBom = "2024.04.01"
+maps-compose = "4.3.1"
+maps-services = "18.2.0"
+accompanist-permission = "0.37.3"
+google-location = "21.0.1"
+task-coroutine = "1.7.3"
+compose-navigation = "2.9.0"
+firebase-auth = "22.3.1"
+firebase-database = "20.3.0"
+google-services = "4.4.2"
+firebase-bom = "33.14.0"
+hilt-compose = "2.8.5"
+hilt-android = "2.56.2"
+hilt-navigation = "1.0.0"
+datastore = "1.1.7"
+places = "3.3.0"
+retrofit2 = "2.9.0"
+appcompat = "1.7.1"
+viewpager2 = "1.1.0"
+material = "1.12.0"
+activity = "1.10.1"
+constraintlayout = "2.2.1"
+visionInternalVkp = "18.2.3"
+firebaseStorageKtx = "22.0.1"
+firebaseFirestore = "26.0.1"
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
+androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
+androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+androidx-ui = { group = "androidx.compose.ui", name = "ui" }
+androidx-ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+androidx-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+androidx-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+androidx-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
+androidx-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
+androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
+
+# Compose Navigation
+compose-navigation = { group = "androidx.navigation", name = "navigation-compose", version.ref = "compose-navigation" }
+
+# Runtime Permissions
+accompanist-permission = { group = "com.google.accompanist", name = "accompanist-permissions", version.ref = "accompanist-permission" }
+
+# Maps Compose
+google-maps-compose = { group = "com.google.maps.android", name = "maps-compose", version.ref = "maps-compose" }
+google-maps-services = { group = "com.google.android.gms", name = "play-services-maps", version.ref = "maps-services" }
+
+# Location
+google-location = { group = "com.google.android.gms", name = "play-services-location", version.ref = "google-location" }
+
+# Tasks Coroutine
+google-coroutine = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-play-services", version.ref = "task-coroutine" }
+
+# Firebase
+firebase-auth = { group = "com.google.firebase", name = "firebase-auth", version.ref = "firebase-auth" }
+firebase-database = { group = "com.google.firebase", name = "firebase-database", version.ref = "firebase-database" }
+firebase-bom = { group = "com.google.firebase", name = "firebase-bom", version.ref = "firebase-bom" }
+
+# Hilt
+hilt-viewmodel-compose = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-compose", version.ref = "hilt-compose" }
+android-hilt = { group = "com.google.dagger", name = "hilt-android", version.ref = "hilt-android" }
+android-hilt-compiler = { group = "com.google.dagger", name = "hilt-android-compiler", version.ref = "hilt-android" }
+androidx-compose-hilt-navigation = { group = "androidx.hilt", name = "hilt-navigation-compose", version.ref = "hilt-navigation" }
+
+# DataStore
+androidx-datastore = { group = "androidx.datastore", name = "datastore-preferences", version.ref = "datastore" }
+
+# Places
+android-places = { group = "com.google.android.libraries.places", name = "places", version.ref = "places" }
+
+# Retrofit
+retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit2" }
+retrofit2-converter = { group = "com.squareup.retrofit2", name = "converter-gson", version.ref = "retrofit2" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+androidx-viewpager2 = { group = "androidx.viewpager2", name = "viewpager2", version.ref = "viewpager2" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+vision-internal-vkp = { group = "com.google.mlkit", name = "vision-internal-vkp", version.ref = "visionInternalVkp" }
+firebase-storage-ktx = { group = "com.google.firebase", name = "firebase-storage-ktx", version.ref = "firebaseStorageKtx" }
+firebase-firestore = { group = "com.google.firebase", name = "firebase-firestore", version.ref = "firebaseFirestore" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+google-services = { id = "com.google.gms.google-services", version.ref = "google-services" }
+dagger-hilt = { id = "com.google.dagger.hilt.android", version.ref = "hilt-android" }
+

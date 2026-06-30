@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">CycleSync</string>
+
+    <string name="ride_session_start">Start Ride Session</string>
+    <string name="ride_background">Ride background</string>
+    <string name="copy_Link">Copy Link</string>
+    <string name="skip">Skip</string>
+    <string name="description">Description</string>
+    <string name="title">Title</string>
+    <string name="welcome_to_CycleSync">Welcome to CycleSync!</string>
+    <string name="ride_Text">Ride together. Stay connected.\nTrack your cycling group in real time.</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_in_with_email">Sign In with Email</string>
+    <string name="email">Email</string>
+    <string name="username">Username</string>
+    <string name="firstname">First Name</string>
+    <string name="lastname">Last Name</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="getStarted">Get Started !</string>">
+    <string name="ride_session_stop">Stop Ride Session</string>
+    <string name="ride_submit">Submit</string>
+    <string name="ride_from">From</string>
+    <string name="ride_to">To</string>
+    <string name="sign_in">Sign In</string>
+    <string name="get_started">Get Started!</string>
+    <string name="ride_snippet">You are here</string>
+    <string name="location_permission_rationale">The location is important for this app. Please grant the permission.</string>
+    <string name="location_permission_rationale_2">Location permission required for this feature to be available.\n
+                    Please grant the permission</string>
+
+</resources>

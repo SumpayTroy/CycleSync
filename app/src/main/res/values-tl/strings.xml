@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CycleSync</string>
+
+    <string name="ride_session_start">Umpisa ng byahe</string>
+    <string name="ride_background"> Pinag Mulan </string>
+    <string name="copy_Link">  I copy ang Link </string>
+    <string name="skip"> Lagpasan </string>
+    <string name="description"> Paglalarawan</string>
+    <string name="title"> Pamagat </string>
+    <string name="welcome_to_CycleSync"> Maligayang pagdating sa CycleSync!</string>
+    <string name="ride_Text">Sabay-sabay na magbisikleta. Manatiling konektado.\nSubaybayan ang inyong grupo nang real time.</string>
+    <string name="sign_up">Magrehistro</string>
+    <string name="sign_in_with_email">Mag-sign in gamit ang Email</string>
+    <string name="username">Username</string>
+    <string name="firstname">Pangalan</string>
+    <string name="lastname">Apelyido</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Kumpirmahin ang Password</string>
+    <string name="getStarted">Magsimula!</string>
+    <string name="ride_session_stop">Itigil ang Ride Session</string>
+    <string name="ride_submit">Ipasa</string>
+    <string name="ride_from">Mula</string>
+    <string name="ride_to">Papunta</string>
+    <string name="sign_in">Mag-login</string>
+    <string name="get_started">Magsimula!</string>
+    <string name="ride_snippet">Narito ka</string>
+    <string name="location_permission_rationale">Mahalaga ang lokasyon para sa app na ito. Pakiusap, payagan ang permiso.</string>
+    <string name="location_permission_rationale_2">Kinakailangan ang permiso sa lokasyon para magamit ang tampok na ito.\nPakiusap, payagan ang permiso.</string>
+    <string name="email">Email</string>
+</resources>
